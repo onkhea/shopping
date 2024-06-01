@@ -622,6 +622,7 @@ footer {
       flex-wrap: wrap;
       gap: 20px;
       justify-content: left;
+      font-size: 7px;
     }
     .product-card {
       background: #fff;
@@ -641,6 +642,7 @@ footer {
         flex-wrap: wrap;
         gap: 20px;
         justify-content: left;
+        font-size: 7px;
       }
       .product-card {
         background: #fff;
