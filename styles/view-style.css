@@ -622,7 +622,7 @@ footer {
       border-radius: 5px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       width: calc(70% - 20px);
-      max-width: 30px;
+      max-width: 20px;
       margin-bottom: 20px;
     }
     }
@@ -634,7 +634,7 @@ footer {
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: calc(70% - 20px);
-        max-width: 30px;
+        max-width: 20px;
         margin-bottom: 20px;
       }
       }
