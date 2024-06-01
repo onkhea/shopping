@@ -651,6 +651,13 @@ footer {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: calc(70% - 20px);
         max-width: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: left;
+        padding: 10px;
+        font-size: 5px;
       }
       }
