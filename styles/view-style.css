@@ -616,6 +616,13 @@ footer {
   }
 
   @media (max-width: 300px) {
+    .product-container {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: left;
+    }
     .product-card {
       background: #fff;
       padding: 20px;
@@ -628,6 +635,13 @@ footer {
     }
 
     @media (max-width: 400px) {
+      .product-container {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: left;
+      }
       .product-card {
         background: #fff;
         padding: 20px;
