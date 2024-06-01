@@ -615,49 +615,16 @@ footer {
    }
   }
 
-  @media (max-width: 300px) {
-    .product-container {
-      flex: 1;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: left;
-      font-size: 7px;
-    }
-    .product-card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      width: calc(70% - 20px);
-      max-width: 20px;
-      margin-bottom: 20px;
-    }
-    }
 
     @media (max-width: 400px) {
-      .product-container {
-        flex: 1;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: left;
-        font-size: 7px;
-      }
       .product-card {
         background: #fff;
         padding: 20px;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         width: calc(70% - 20px);
-        max-width: 20px;
+        max-width: 200px;
         margin-bottom: 10px;
       }
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        text-align: left;
-        padding: 10px;
-        font-size: 5px;
-      }
+
       }
