@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Settings</title>
+    <link rel="stylesheet" href="../styles/user-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="../index.html">Home</a>
+                <a href="../page/addproduct.html">Add Product</a>
+            </div>
+            <div class="nav-right">
+                <a href="../page/contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
+                <a href="../page/cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+                <a href="./user.html"><i class="fas fa-user"></i> Account</a>
+            </div>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Account Settings</h1>
+        <div id="user-details" class="user-details-container">
+            <!-- User details will be appended here by JavaScript -->
+        </div>
+        <form id="update-form">
+            <h2>Update Information</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Update</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: onkhea112233@gmail.com</p>
+                <p>Phone: (015) 739 723</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="../page/addproduct.html"><i class="fas fa-plus-circle"></i> Add Product</a>
+                <a href="./user.html"><i class="fas fa-user"></i> User</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 khmer Company. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../scripts/user.js"></script>
+</body>
+</html>

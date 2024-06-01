@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="../styles/cart-style.css">
+</head>
+<body>
+  <div class="cart-form-container">
+    <h2>Add Items to Cart</h2>
+    <form id="cart-form">
+      <label for="user-id">User ID</label>
+      <input type="text" id="user-id" name="userId" required>
+      
+      <label for="items">Items (productId, quantity)</label>
+      <div id="items">
+        <div class="item">
+          <input type="text" class="product-id" placeholder="Product ID" required>
+          <input type="number" class="product-quantity" placeholder="Quantity" required>
+        </div>
+      </div>
+      <button type="button" id="add-item-btn">Add Another Item</button>
+      
+      <button type="submit">Add to Cart</button>
+    </form>
+  </div>
+  
+  <script src="../scripts/cart.js"></script>
+</body>
+</html>

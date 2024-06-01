@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Bar</title>
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+    <!-- Navbar items -->
+    <div id="navlist" class="overlay">
+      <div class="overlay-content">
+        <a href="#">Home</a>
+        <a href="#">Our Products</a>
+        <a href="#">Careers</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <!-- search bar right align -->
+        <div class="search">
+            <form action="#">
+                <input type="text" placeholder="Search Courses" name="search">
+                <button>
+                    <i class="fa fa-search" style="font-size: 18px;"></i>
+                </button>
+            </form>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+    function openNav() {
+      document.getElementById("navlist").style.width = "50%";
+    }
+    
+    function closeNav() {
+      document.getElementById("navlist").style.width = "0%";
+    }
+    </script>
+</body>
+
+</html>
