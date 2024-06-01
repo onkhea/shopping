@@ -616,7 +616,15 @@ footer {
   }
 
 
-    @media (max-width: 400px) {
+    @media (max-width: 400px) { 
+      
+.product-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: start;
+}
       .product-card {
         background: #fff;
         padding: 20px;
