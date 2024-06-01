@@ -614,3 +614,15 @@ footer {
     display:block;
    }
   }
+
+  @media (max-width: 350px) {
+    .product-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: calc(100% - 20px);
+      max-width: 90px;
+      margin-bottom: 20px;
+    }
+    }
